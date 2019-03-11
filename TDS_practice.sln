@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDS_practice", "TDS_practice\TDS_practice.csproj", "{8A8FB336-999C-4212-BD96-AEB09B69E502}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{951260FF-7549-4839-A7C7-2B5F1CD72DB5}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDSProject1", "TDSProject1\TDSProject1.scproj", "{0EBA31B9-05BA-47A3-A80F-CDADFC8BE4CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A8FB336-999C-4212-BD96-AEB09B69E502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8FB336-999C-4212-BD96-AEB09B69E502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8FB336-999C-4212-BD96-AEB09B69E502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8FB336-999C-4212-BD96-AEB09B69E502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBA31B9-05BA-47A3-A80F-CDADFC8BE4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBA31B9-05BA-47A3-A80F-CDADFC8BE4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBA31B9-05BA-47A3-A80F-CDADFC8BE4CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0EBA31B9-05BA-47A3-A80F-CDADFC8BE4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBA31B9-05BA-47A3-A80F-CDADFC8BE4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBA31B9-05BA-47A3-A80F-CDADFC8BE4CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAC9D135-2CCF-45CA-8F37-41FF569A83C8}
+	EndGlobalSection
+EndGlobal
